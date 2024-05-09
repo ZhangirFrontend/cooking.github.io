@@ -1,0 +1,82 @@
+.div-menu {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(1);
+    background-color: #fffdd0
+}
+
+.left-menu {
+    grid-column: 1/10;
+    font-size: larger;
+    margin-bottom: 15px;
+}
+
+
+.right-menu {
+    grid-column: 10/13;
+    font-size: larger;
+}
+
+h2 {
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+
+.first {
+    display: flex;
+    margin-left: 25px;
+}
+
+.food {
+    width: 400px;
+}
+
+.ol-menu {
+    list-style: none;
+    margin-left: 15px;
+    font-size: larger;
+}
+
+.ol-menu-right {
+    list-style:disc;
+    margin-left: 15px;
+    font-size: larger;
+    border-style: solid;
+    border-width: 1px;
+    padding: 25px;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
